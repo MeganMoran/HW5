@@ -1,0 +1,30 @@
+﻿#container {background:black; padding:20px; margin:0 auto; border:1px solid black; width:900px; }
+#header {background:purple; color:white; padding:10px; border:1px solid black; }
+#menu{background: plum; color:Gray; padding:10px; margin:0 auto; border-left:1px solid black; border-right:1px solid black; }
+#main {background:white; padding:10px; margin:0 auto; border-left:1px solid black; border-right: 1px solid black;}
+#footer {background:gray; color:white; padding:10px; margin:0 auto; border:1px solid black; }
+
+.hdr_img {float:right; margin:0; padding:0; border:0; }
+
+.level1
+{
+    color: White;
+    background-color: Purple;
+    font-variant: small-caps;
+    font-size: large;
+    font-weight: bold;
+}
+
+.level2
+{
+    color: fuchsia;
+    font-family: @Adobe Gothic Std B;
+    font-size: medium;
+    background-color: black;
+}
+
+.level3
+{color: Black;
+ background-color: Fuchsia;
+ font-size: small;
+} 

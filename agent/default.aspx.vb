@@ -1,5 +1,5 @@
 ﻿
-Partial Class Agent_default
+Partial Class agent_default
     Inherits System.Web.UI.Page
 
 End Class

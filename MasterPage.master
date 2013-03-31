@@ -1,0 +1,57 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="Stylesheet" type="text/css" href="./megan-style.css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+   <div id="container">
+        <div id="header">
+            <asp:Image class="hdr_img" ID="Image1" runat="server" Height="84px" ImageUrl="~/Logo/pug.jpg" 
+                Width="95px" />
+            <h1>Dog Insurance</h1>
+
+        </div>
+
+        <div id="menu">
+
+     
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="horizontal" >
+                <LevelMenuItemStyles>
+                    <asp:MenuItemStyle CssClass="level1" />
+                    <asp:MenuItemStyle CssClass="level2" />
+                    <asp:MenuItemStyle CssClass="level3" />
+                                  
+                </LevelMenuItemStyles>
+            </asp:Menu>
+
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+
+        </div>
+
+   <div id="main">   
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        </div>
+
+        <div id="footer">
+
+        Footer text
+
+        </div>
+        </div>
+   
+    </form>
+</body>
+</html>
