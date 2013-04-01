@@ -23,7 +23,7 @@
         </div>
 
         <div id="menu">
-
+            <asp:LoginStatus class="level1" ID="LoginStatus1" runat="server" />
      
             <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="horizontal" >
                 <LevelMenuItemStyles>
