@@ -1,39 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-    <siteMapNode url="" title="."  description="">
-       
-      <siteMapNode url="~/default.aspx" title="Home"  description="" />
-      
+  <siteMapNode url="" title="."  description="">
 
-      <siteMapNode url="~/admin/default.aspx" title="Admin"  description="" >
-
-        <siteMapNode url="~/admin/add.aspx" title="Add Item" description="" />
-
-        <siteMapNode url="~/admin/edit.aspx" title="Edit / Delete Item" description="" />
-      
-      </siteMapNode>
+    <siteMapNode url="~/default.aspx" title="Home"  description="" />
 
 
-      <siteMapNode url="~/agent/default.aspx" title="Agents" description="" >
+    <siteMapNode url="~/admin/default.aspx" title="Admin"  description="" >
 
-        <siteMapNode url="~/agent/request.aspx" title="Request a Quote" description="" />
+      <siteMapNode url="~/admin/add.aspx" title="Add Puppy" description="" />
 
-        <siteMapNode url="~/agent/purchase.aspx" title="Purchase a Plan" description="" />
-                
-      </siteMapNode>
+      <siteMapNode url="~/admin/edit.aspx" title="Edit / Delete Puppy" description="" />
 
-
-      <siteMapNode url="~/customer/default.aspx" title="Customer" description="" >
-
-        <siteMapNode url="~/customer/view.aspx" title="View Account" description="">
-
-          <siteMapNode url="~/customer/pay.aspx" title="Pay for Current Coverage" description="" />
-        </siteMapNode>
-
-        <siteMapNode url="~/customer/meeting.aspx" title="Schedule Meeting" description="" />
-                
-      </siteMapNode>
-
-      <siteMapNode url="~/search.aspx" title="Search" description="" />
     </siteMapNode>
+
+
+    <siteMapNode url="~/agent/default.aspx" title="Breeders" description="" >
+
+      <siteMapNode url="~/agent/request.aspx" title="View Puppies" description="" />
+
+      <siteMapNode url="~/agent/purchase.aspx" title="Add Puppy" description="" />
+
+    </siteMapNode>
+
+
+    <siteMapNode url="~/customer/default.aspx" title="Customer" description="" >
+
+      <siteMapNode url="~/customer/view.aspx" title="View Puppies" description="">
+
+
+
+
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
 </siteMap>

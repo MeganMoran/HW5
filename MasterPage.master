@@ -18,7 +18,7 @@
         <div id="header">
             <asp:Image class="hdr_img" ID="Image1" runat="server" Height="84px" ImageUrl="~/Logo/pug.jpg" 
                 Width="95px" />
-            <h1>Dog Insurance</h1>
+            <h1>Dog House</h1>
 
         </div>
 
@@ -47,9 +47,7 @@
 
         <div id="footer">
 
-        Footer text
-
-        </div>
+            Dog House</div>
         </div>
    
     </form>
